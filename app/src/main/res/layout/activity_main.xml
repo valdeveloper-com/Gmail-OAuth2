@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/mCallApiButton"
+        android:id="@+id/btnSendMail"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_centerHorizontal="true"
@@ -27,7 +27,7 @@
         android:hint="Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mCallApiButton">
+        app:layout_constraintTop_toBottomOf="@+id/btnSendMail">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
